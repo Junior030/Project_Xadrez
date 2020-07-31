@@ -6,6 +6,7 @@ public class Piece { // Criando class peça e atribuindo a posição e tabuleiro
 
 	public Piece(Board board) {
 		this.board = board;
+		position = null;
 	}
 	protected Board getBoard() {//uso exclusivo para camada tabuleiro
 		return board;
